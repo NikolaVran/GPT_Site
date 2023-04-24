@@ -305,3 +305,19 @@ section h2 {
   }
   
   /* End of styles */
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table th, table td {
+    border: 1px solid black;
+    padding: 0.5em;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #333;
+    color: white;
+  }
