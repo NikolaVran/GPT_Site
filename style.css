@@ -1,132 +1,307 @@
-/* set some basic styles for the entire page */
-html {
-  font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+/* General styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+nav img {
+  height: 40px;
+  margin-right: 10px;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
-  color: #333;
-  line-height: 1.6;
-}
-
-/* style the header */
-header {
-  background-color: #0077be;
-  color: #fff;
-  padding: 1rem;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 2rem;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-header nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-header nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-header nav li {
-  display: inline-block;
-  margin-right: 1rem;
-}
-
-header nav li:last-child {
-  margin-right: 0;
-}
-
-header nav a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.1rem;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-header nav a:hover {
-  text-decoration: underline;
-}
-
-/* style the main content area */
-main {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 0 2rem;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  border-radius: 10px;
-}
-
-main h2 {
-  font-size: 2.5rem;
-  margin-top: 0;
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
-main h3 {
-  font-size: 1.8rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-
-main p {
-  margin-bottom: 1.5rem;
-  font-size: 1.1rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
   line-height: 1.5;
 }
 
-main ul {
-  margin-bottom: 1.5rem;
-  padding-left: 1.5rem;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-main li {
-  margin-bottom: 0.5rem;
-}
-
-main a {
-  color: #0077be;
-  text-decoration: none;
-}
-
-main a:hover {
-  text-decoration: underline;
-}
-
-/* style the footer */
-footer {
-  background-color: #222;
-  text-align: center;
-  padding: 2rem;
-  margin-top: 2rem;
+/* Header styles */
+header {
+  background-color: #333;
   color: #fff;
+  padding: 20px 0;
 }
 
-footer p {
-  margin: 0;
-  font-size: 1.1rem;
-}
-
-footer a {
-  color: #fff;
-  text-decoration: none;
+header h1 {
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
+  font-size: 36px;
+  margin: 0;
 }
 
-footer a:hover {
-  text-decoration: underline;
+nav {
+  margin-top: 10px;
 }
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+/* Main styles */
+main {
+  padding: 50px 0;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+section h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+/* General styles */
+ 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+/* Main styles */
+main {
+  padding: 50px 0;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+section h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom:30px;
+  text-transform: uppercase;
+  }
+  
+  section p {
+  margin: 20px 0;
+  font-size: 18px;
+  line-height: 1.5;
+  }
+  
+  section a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.2s ease-in-out;
+  }
+  
+  section a:hover {
+  background-color: #fff;
+  color: #333;
+  border: 2px solid #333;
+  }
+  
+  .project {
+  display: flex;
+  margin-bottom: 50px;
+  }
+  
+  .project img {
+  flex: 1;
+  }
+  
+  .project-details {
+  flex: 1;
+  padding: 0 20px;
+  }
+  
+  .project h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 10px;
+  }
+  
+  section form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  }
+  
+  section label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 10px;
+  }
+  
+  section input,
+  section textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  }
+  
+  section button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  }
+  
+  section button[type="submit"]:hover {
+  background-color: #fff;
+  color: #333;
+  border: 2px solid #333;
+  }
+  
+  section a.github-link {
+  display: block;
+  max-width: 50px;
+  margin: 20px auto 0;
+  }
+  
+  section a.github-link img {
+  max-width: 100%;
+  }
+  
+  /* Footer styles */
+  footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  }
+  
+  footer p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+  }
+  
+  /* Media queries */
+  @media (max-width: 768px) {
+  header h1 {
+  font-size: 24px;
+  }
+  
+  nav li {
+  display: block;
+  margin-bottom: 10px;
+  }
+  
+  section form {
+  max-width: 100%;
+  }
+  }
+  
+  @media (max-width: 576px) {
+  section h2 {
+  font-size: 24px;
+  }
+  
+  section p {
+  font-size: 16px;
+  }
+  
+  .project {
+  flex-direction: column;
+  }
+  
+  .project img {
+  margin-bottom: 20px;
+  }
+  }
+  
+  /* End of styles */
