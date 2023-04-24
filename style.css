@@ -345,3 +345,61 @@ section h2 {
       height: 800px;
       border: none;
     }
+
+    /* Contact Form Styles */
+
+#contact {
+  padding: 100px 0;
+}
+
+#contact h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+#contact-form .form-control {
+  background-color: #f8f8f8;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  padding: 25px 20px;
+  margin-bottom: 30px;
+}
+
+#contact-form .form-control:focus {
+  box-shadow: none;
+}
+
+#contact-form button[type="submit"] {
+  background-color: #0e86d4;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 20px 50px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact-form button[type="submit"]:hover {
+  background-color: #0d74ba;
+}
+
+.contact-info {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-info li {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.contact-info i {
+  color: #0e86d4;
+  font-size: 24px;
+  margin-right: 15px;
+}
